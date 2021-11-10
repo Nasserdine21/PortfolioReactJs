@@ -1,0 +1,38 @@
+.Avatar{
+    color: #0060f1;
+    font-size: 28px;
+}
+nav ul li {
+    display: inline;
+    margin: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #c5c5c5;
+}
+.menuDesktop{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    align-items: center;
+}
+.menu{
+    margin-right: 20px;
+}
+nav .cv{
+    background-color: #0060f1;
+    padding: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.clr{
+    color: white !important;
+}
